@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="pace.css">
+        <title>Pacekalkulator </title>
+    </head>
+    <body>
+        <h1>Finn din optimale splittid</h1>
+        <label for="distanse">Hva er din distanse? </label> <br>
+        <select name="" id="distanse">
+            <option value="400m" selected="selected">400m</option>
+            <option value="800m">800m</option>
+            <option value="1500m"> 1500m</option>
+        </select> 
+        <button id="velg">Velg</button> <br> <br>
+
+        <div>
+            <label for="måltid">Skriv inn ønsket sluttid i sekunder:</label> <br>
+            <input type="number" name="måltid" id="måltid">
+            <button id="velg2">Velg</button>
+        </div>
+
+        <div>
+            <h3 id="res"></h3>
+        </div>
+
+        <script src="pace.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(181, 213, 240);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    margin: 3vw;
+    zoom: 200%;
+}
+
+input {
+    width: 40px;
+}
